@@ -1,0 +1,6 @@
+- [ ] Remove AI data from `ChatModels.kt`
+- [ ] Refactor `MapDialog` to `MapsScreen` in `MainActivity.kt`
+- [ ] Update `FiChatMainScreen` and `NavigationBar` to 4 tabs
+- [ ] Remove `AIManager` and all AI logic from `MainActivity.kt`
+- [ ] Clean up AI settings in `SettingsDialog`
+- [ ] Verify build and navigation
