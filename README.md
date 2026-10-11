@@ -1,4 +1,4 @@
-# 📡 FiChat (Vicinify)
+# FiChat
 
 > **Offline-First, Decentralized Peer-to-Peer Mesh Messaging System for Android**
 
@@ -17,13 +17,13 @@ FiChat sangat ideal untuk situasi tanpa sinyal seluler: **kegiatan luar ruangan 
 
 ---
 
-## 🌟 Fitur Utama
+## Fitur Utama
 
-### 1. 📵 Komunikasi Off-Grid (Tanpa Internet)
+### 1. Komunikasi Off-Grid (Tanpa Internet)
 * Kirim dan terima pesan tanpa kuota data, Wi-Fi router, atau menara BTS seluler.
 * Menggunakan Bluetooth LE & Wi-Fi Direct secara bersamaan untuk efisiensi dan kecepatan.
 
-### 2. 🔀 Multi-Hop Mesh Routing
+### 2. Multi-Hop Mesh Routing
 * Pesan dapat "melompat" (*hop*) melalui beberapa perangkat FiChat untuk menjangkau tujuan yang jauh.
 * Algoritma *smart routing* menghindari pengulangan pesan (*looping prevention*) dan memilih jalur transmisi tercepat.
 
@@ -31,35 +31,35 @@ FiChat sangat ideal untuk situasi tanpa sinyal seluler: **kegiatan luar ruangan 
 [ Pengirim A ] ──(BLE/P2P)──> [ Perangkat Relay B ] ──(BLE/P2P)──> [ Penerima C ]
 ```
 
-### 3. 🔒 Keamanan & Enkripsi End-to-End (E2EE)
+### 3. Keamanan & Enkripsi End-to-End (E2EE)
 * Enkripsi tingkat aplikasi (*application-level encryption*) dengan AES-256 dan Android KeyStore.
 * Perangkat perantara (*relay nodes*) hanya meneruskan paket data terenkripsi tanpa bisa membaca isi pesan.
 * Proteksi aplikasi tambahan dengan **Biometric Authentication** (Kunci Sidik Jari/Wajah).
 
-### 4. 🛰️ Radar Perangkat & Peer Discovery
+### 4. Radar Perangkat & Peer Discovery
 * Visualisasi perangkat FiChat di sekitar pengguna secara *real-time*.
 * Penandaan indikator kualitas sinyal (RSSI) dan status perangkat aktif.
 
-### 5. 💬 Pesan Kaya Fitur (Rich Messaging)
+### 5. Pesan Kaya Fitur (Rich Messaging)
 * **Pesan Teks & Emotikon**
 * **Voice Notes / Pesan Suara** (perekaman dan pemutaran audio luring)
 * **Transfer Gambar & Berkas**
 * **Self-Destruct Messages** (pesan hapus otomatis setelah waktu yang ditentukan)
 * **Pesan Darurat SOS** dengan prioritas tinggi di dalam jaringan mesh.
 
-### 6. 🗺️ Peta Offline (Offline Map Caching)
+### 6. Peta Offline (Offline Map Caching)
 * Integrasi **osmdroid** untuk menampilkan peta dan koordinat GPS tanpa jaringan internet.
 * Fitur *tile caching* untuk menyimpan peta area sekitar sebelum bepergian.
 
-### 7. 🌐 Global Bridge
+### 7. Global Bridge
 * Apabila salah satu perangkat terhubung ke internet, FiChat dapat menjembatani pesan jaringan mesh lokal ke server awan (*Cloud*) untuk meneruskannya ke pengguna FiChat di tempat lain.
 
-### 8. 🧭 Sensor Lingkungan & Outdoor Dashboard
+### 8. Sensor Lingkungan & Outdoor Dashboard
 * Kompas digital, altimeter, dan pemantau kondisi jaringan mesh sekitar untuk kebutuhan luar ruangan.
 
 ---
 
-## 🏗️ Arsitektur Aplikasi
+## Arsitektur Aplikasi
 
 FiChat dibangun menggunakan standar **Clean Architecture + MVVM (Model-View-ViewModel)** dengan komponen Jetpack modern:
 
@@ -93,7 +93,7 @@ FiChat dibangun menggunakan standar **Clean Architecture + MVVM (Model-View-View
 
 ---
 
-## 🛠️ Teknologi & Dependencies
+## Teknologi & Dependencies
 
 | Kategori | Teknologi / Library |
 | :--- | :--- |
@@ -109,7 +109,7 @@ FiChat dibangun menggunakan standar **Clean Architecture + MVVM (Model-View-View
 
 ---
 
-## 🚀 Panduan Memulai (Getting Started)
+## Panduan Memulai (Getting Started)
 
 ### Prasyarat
 1. **Android Studio:** Ladybug (2024.2.1) atau versi lebih baru.
@@ -135,7 +135,7 @@ FiChat dibangun menggunakan standar **Clean Architecture + MVVM (Model-View-View
 
 ---
 
-## 🧪 Cara Pengujian Jaringan Mesh
+## Cara Pengujian Jaringan Mesh
 
 Untuk menguji fitur multi-hop messaging:
 
@@ -149,7 +149,7 @@ Untuk menguji fitur multi-hop messaging:
 
 ---
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```text
 FiChat/
@@ -177,7 +177,7 @@ FiChat/
 
 ---
 
-## 🛡️ Keamanan & Privasi
+## Keamanan & Privasi
 
 * **Tidak Ada Pelacakan Terpusat:** Data pesan disimpan secara lokal di perangkat Anda (*Room DB*).
 * **Anonymized Peer IDs:** Identifikasi perangkat menggunakan ID acak terenkripsi.
@@ -185,7 +185,7 @@ FiChat/
 
 ---
 
-## 🤝 Kontribusi
+## Kontribusi
 
 Kontribusi selalu terbuka! Jika Anda ingin melaporkan bug atau menambahkan fitur baru:
 
@@ -197,7 +197,7 @@ Kontribusi selalu terbuka! Jika Anda ingin melaporkan bug atau menambahkan fitur
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 Hak Cipta © 2025 **Visenta Studio / Restu Alfauzi**.
 
