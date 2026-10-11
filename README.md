@@ -199,7 +199,7 @@ Kontribusi selalu terbuka! Jika Anda ingin melaporkan bug atau menambahkan fitur
 
 ## Lisensi
 
-Hak Cipta © 2025 **Circle Mesh Limited / Restu Alfauzi**.
+Hak Cipta © 2026 **Circle Mesh Limited / Restu Alfauzi**.
 
 ---
 
