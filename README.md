@@ -199,11 +199,11 @@ Kontribusi selalu terbuka! Jika Anda ingin melaporkan bug atau menambahkan fitur
 
 ## Lisensi
 
-Hak Cipta © 2025 **Visenta Studio / Restu Alfauzi**.
+Hak Cipta © 2025 **Circle Mesh Limited / Restu Alfauzi**.
 
 ---
 
 <p align="center">
   <b>FiChat</b> • <i>Communication Anywhere, Beyond Cellular Limits.</i><br>
-  📡 Bluetooth Mesh • 🔒 End-to-End Encrypted • 🗺️ Offline Maps • 🌐 Global Bridge
+  Bluetooth Mesh • End-to-End Encrypted • Offline Maps • Global Bridge
 </p>
